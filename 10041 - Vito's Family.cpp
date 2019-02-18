@@ -10,6 +10,9 @@ we will proceed in the following steps.
 using namespace std;
 
 int main(){
+
+	freopen("input.txt", "r",stdin);
+	freopen("output.txt", "w",stdout);
 	
 	int n; scanf("%d", &n); 
 	for (int i = 0; i < n; ++i)
@@ -23,9 +26,8 @@ int main(){
 		}
 
 		sort(v.begin(), v.end()); 
-		int median_idx = int((len-1)/2.0); 
-		int median = v[median_idx]; 
-		//calculate Sum of Absolute Deviations 
+		int median = v[len/2]; 
+		//calculate anser 
 		int devaition = 0 ; 
 		for (int i = 0; i < len; ++i)
 		{
