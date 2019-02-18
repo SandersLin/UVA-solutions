@@ -4,6 +4,8 @@ we will proceed in the following steps.
 1. read values into array and sort it. 
 2. can easily obtain median as floor(n/2)th element 
 3.calculate Sum of Absolute Deviations.
+
+Running time: O(nlogn) for sorting. 
 */
 
 #include <bits/stdc++.h> 
