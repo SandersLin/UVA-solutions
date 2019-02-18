@@ -1,11 +1,22 @@
 /*
-They key : The Median Minimizes the Sum of Absolute Deviations (The  L1  Norm). 
+The key : The Median Minimizes the Sum of Absolute Deviations (The  L1  Norm). 
 we will proceed in the following steps. 
 1. read values into array and sort it. 
 2. can easily obtain median as floor(n/2)th element 
 3.calculate Sum of Absolute Deviations.
 
 Running time: O(nlogn) for sorting. 
+
+
+關鍵: 中位數最小化絕對值差異的總和 (The  L1  Norm). 
+解題有以下步驟
+1.將數據讀入陣列
+2.排序陣列以取得中位數floor(n/2)th element
+3.用此中位數去計算與其他數字的絕對值和
+
+時間複雜度: O(nlogn) for sorting. 
+
+
 */
 
 #include <bits/stdc++.h> 
