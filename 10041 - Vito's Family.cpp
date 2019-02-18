@@ -1,3 +1,11 @@
+/*
+They key : The Median Minimizes the Sum of Absolute Deviations (The  L1  Norm). 
+we will proceed in the following steps. 
+1. read values into array and sort it. 
+2. can easily obtain median as floor(n/2)th element 
+3.calculate Sum of Absolute Deviations.
+*/
+
 #include <bits/stdc++.h> 
 using namespace std;
 
